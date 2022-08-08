@@ -10,7 +10,7 @@ import HomeHeader from "./components/HomeHeader";
 function App() {
   return (
     <Router>
-      <div>
+      <div class="wrapper">
         <HomeHeader />
         <Routes>
           <Route path="/" element={<Home />} />
