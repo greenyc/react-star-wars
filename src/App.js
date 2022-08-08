@@ -7,6 +7,8 @@ import Topics from "./views/Topics";
 
 import HomeHeader from "./components/HomeHeader";
 
+import "./assets/styles/index.scss";
+
 function App() {
   return (
     <Router>
