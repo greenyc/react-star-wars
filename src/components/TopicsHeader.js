@@ -2,14 +2,16 @@ import { Link } from "react-router-dom";
 
 function TopicsHeader() {
   return (
-    <ul>
-      <li>
-        <Link to={`components`}>Components</Link>
-      </li>
-      <li>
-        <Link to={`props-v-state`}>Props v. State</Link>
-      </li>
-    </ul>
+    <div>
+      <ul>
+        <li>
+          <Link to={`topic A`}>Topic A</Link>
+        </li>
+        <li>
+          <Link to={`topic B`}>Topic B</Link>
+        </li>
+      </ul>
+    </div>
   );
 }
 

@@ -9,7 +9,15 @@ function Topics() {
       <TopicsHeader />
       <Routes>
         <Route path={`:topicId`} element={<Topic />} />
-        <Route path={``} element={<h3>Please select a topic.</h3>} />
+        <Route
+          path={``}
+          element={
+            <div>
+              <h3>You haven't selected a topic</h3>
+              <p>There are no topics really, I just want an example of multi-level routing.</p>
+            </div>
+          }
+        />
       </Routes>
     </div>
   );
